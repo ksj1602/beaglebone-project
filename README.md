@@ -27,7 +27,7 @@ PERIOD=LENGTH : LENGTH is a positive integer that defines (in seconds) the fixed
                 which temperature data will be reported
 STOP : Pauses the program
 START : Resumes the program if it has been paused
-OFF : Terminates the program. This is essentially the same as pressing the button if it was connected.
+OFF : Terminates the program. This is essentially the same as pressing the button.
 ```
 
 The program supports the following command line arguments:
