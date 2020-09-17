@@ -23,7 +23,8 @@ The program also accepts the following commands while running:
 
 ```
 SCALE=UNIT : Changes the unit of measurement to Fahrenheit or Celsius. UNIT must be one of F or C
-PERIOD=LENGTH : LENGTH is a positive integer that defines (in seconds) the fixed interval at which temperature data will be reported
+PERIOD=LENGTH : LENGTH is a positive integer that defines (in seconds) the fixed interval at 
+				which temperature data will be reported
 STOP : Pauses the program
 START : Resumes the program if it has been paused
 OFF : Terminates the program. This is essentially the same as pressing the button if it was connected.
@@ -33,7 +34,8 @@ The program supports the following command line arguments:
 
 ```
 --period=LENGTH : As above, LENGTH is a positive integer for interval of measurement
---scale=UNIT : As above, can be used to set the unit to Fahrenheit or Celsius before starting the program.
+--scale=UNIT : As above, can be used to set the unit to Fahrenheit or Celsius before 
+			   starting the program.
 --log=FILE : This argument enables logging of data to FILE.
 ```
 
