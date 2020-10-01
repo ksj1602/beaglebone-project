@@ -145,7 +145,6 @@ void update_time_string(struct timespec time_now)
 
 /*
     Code for three SSL functions
-    Adapted from TA slides except for error-checking
 */
 
 SSL_CTX* ssl_init (void)
